@@ -125,4 +125,7 @@
 
   <!-- Hardware -->
   <project path="hardware/proton/interfaces" name="android_hardware_proton_interfaces" remote="proton-trinket" />
+
+  <!-- Modules -->
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="proton-trinket" />
 </manifest>
