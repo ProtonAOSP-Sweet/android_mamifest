@@ -122,4 +122,7 @@
   <project path="device/proton/sepolicy" name="android_device_proton_sepolicy" remote="proton-trinket" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="proton-trinket" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="proton-trinket" />
+
+  <!-- Hardware -->
+  <project path="hardware/proton/interfaces" name="android_hardware_proton_interfaces" remote="proton-trinket" />
 </manifest>
