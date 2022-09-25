@@ -34,6 +34,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom-caf_sm8150_media" groups="qcom" remote="proton-sweet" revision="sc-v2" />
   <remove-project name="device/common" />
   <project name="android_device_common" path="device/common" remote="proton" groups="proton" />
   <remove-project name="platform/art" />
