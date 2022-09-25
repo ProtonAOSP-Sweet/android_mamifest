@@ -7,7 +7,7 @@ ProtonAOSP is a minimal custom Android ROM focused on UI/UX and performance, wit
 First, make sure you have an [Android build environment](https://source.android.com/setup/build/initializing) and the [repo tool](https://source.android.com/setup/build/downloading) set up. After that, run the following commands:
 
 ```
-repo init --dpeth="1" -u https://github.com/ProtonAOSP-Sweet/android_manifest -b sc-v2
+repo init --depth="1" -u https://github.com/ProtonAOSP-Sweet/android_manifest -b sc-v2
 ```
 ```
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
